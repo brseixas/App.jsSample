@@ -24,37 +24,38 @@
 
 <div class="app-page" data-page="SignIn">
 <div class="app-topbar">
-<div class="app-button left blue" data-target="home">back</div>
+<div class="app-button left blue" data-target="home">Home</div>
 </div>
 <br />
 <div class="app-content">
 <input id="btnUsername" class="app-input" placeholder="Username">
 <input id="btnPass" class="app-input" placeholder="Password" type="password">
 <br />
-<div class="app-button green">SignIn</div>
+<div id="btnSignIn" class="app-button green">SignIn</div>
 </div>
 </div>
 
 <div class="app-page" data-page="SignUp">
 <div class="app-topbar">
-<div class="app-button left blue" data-target="home">back</div>
+<div class="app-button left blue" data-target="home">Home</div>
 </div>
 <br />
 <div class="app-content">
 <input id="btnEmail" class="app-input" placeholder="Email">
 <input id="btnPassword"" class="app-input" placeholder="Password" type="password">
 <br />
-<div class="app-button green">SignUp</div>
+<div id="btnSignUp" class="app-button green">SignUp</div>
 </div>
 </div>
 
 <div class="app-page" data-page="LoginHome">
 <div class="app-topbar">
 <div id="btnShowList" class="app-button red left">Wish List</div>
+<div class="app-title">Welcome Home!! <span class="user"></span></div>
 <div id="btnLogout" class="app-button red right ">Logout</div>
 </div>
 <div class="app-content">
-Welcome Home!! <span class="user"></span>
+
 
 <input id="txtWish" class="app-input" placeholder="wish" >
 <br />
@@ -72,8 +73,14 @@ An error occurred while trying to login
 </div>
 
 <div class="app-page" data-page="WishList">
+<div class="app-topbar">
+<div class="app-title">Wish List</div>
+<div class="app-button left blue" >Back</div>
+</div>
 <div class="app-content">
-Hello
+<ul class="app-list">
+  
+</ul>
 </div>
 </div>
 
